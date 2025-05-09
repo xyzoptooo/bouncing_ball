@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: #eee;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+#gameContainer {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  background-color: #111;
+  border: 2px solid #555;
+  border-radius: 8px;
+  position: relative;
+}
+
+canvas {
+  display: block;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.preferences {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  color: #eee;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="color"],
+input[type="range"] {
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 4px;
+  border: 1px solid #555;
+  padding: 2px;
+}
+
+input[type="color"]:focus,
+input[type="range"]:focus {
+  outline: none;
+  box-shadow: 0 0 8px #66ccff;
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(102, 204, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 10px 10px rgba(102, 204, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(102, 204, 255, 0);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 1s ease;
+}
+
+#gameContainer {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  background-color: #111;
+  border: 2px solid #555;
+  border-radius: 8px;
+  position: relative;
+  transition: box-shadow 0.5s ease;
+}
+
+#gameContainer.animate-glow {
+  box-shadow: 0 0 20px 5px #66ccff;
+}

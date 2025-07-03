@@ -1,6 +1,9 @@
 # CSS3 Transitions, Animations, and Advanced JavaScript Functions
 
+url: https://bouncinball.netlify.app/
+
 ## Objectives
+
 
 Create smooth CSS transitions and animations.  
 Use JavaScript functions for dynamic behavior.  
@@ -23,7 +26,7 @@ Apply JavaScript to trigger animations.
 
 ---
 
-## How This Assignment is Solved by the Bouncing Ball Game Project
+##Solved by the Bouncing Ball Game Project
 
 This project implements a "Bouncing Ball Game" that fulfills the assignment objectives as follows:
 
@@ -39,8 +42,6 @@ This project implements a "Bouncing Ball Game" that fulfills the assignment obje
 - **User Interaction:**  
   The project includes input controls for selecting the ball color and speed. Changing these inputs triggers CSS animations and updates the game behavior in real-time.
 
-This combination of CSS animations, JavaScript functions, and localStorage usage demonstrates the key concepts outlined in the assignment.
+This combination of CSS animations, JavaScript functions, and localStorage usage demonstrates the key concepts outlined.
 
-Happy Coding! 💻✨
-"# bouncing_ball" 
-"# bouncing_ball" 
+ 
